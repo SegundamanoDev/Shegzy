@@ -1,0 +1,276 @@
+.home_container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.banner {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding: 11rem;
+	flex-direction: column;
+	background-color: rgba(0, 0, 255, 0.3);
+}
+.slides {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transform: translateX(-50%);
+	transition: all 0.5s linear;
+	z-index: -1;
+}
+.slide {
+	opacity: 1;
+	transform: translateX(0);
+	background-color: rgba(0, 0, 255, 0.5);
+}
+.slides > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.slides > .content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: fit-content;
+	height: fit-content;
+	color: white;
+	transform: translate(-50%, -50%);
+	background: rgba(0, 0, 0, 0.4);
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	animation: content 2s forwards;
+}
+@keyframes content {
+	0% {
+		visibility: hidden;
+		opacity: 0;
+		top: 70%;
+	}
+	100% {
+		visibility: visible;
+		opacity: 1;
+		top: 50%;
+	}
+}
+.content > button {
+	width: fit-content;
+	height: fit-content;
+	padding: 0.5rem;
+}
+.banner > .arrow_back {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner > .arrow_front {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.arrow_btn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+.arrow {
+	color: cyan;
+	width: 2rem !important;
+	height: 2rem !important;
+}
+.tracking_form_container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.5rem;
+	gap: 1rem;
+	height: 12rem;
+	width: 100%;
+	background: linear-gradient(to right, cyan, blue);
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 2rem;
+}
+.tracking_form_container > form {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+.tracking_form_container > form > input {
+	display: flex;
+	background-color: whitesmoke;
+	outline: none;
+	border: none;
+	color: gray;
+	padding: 1rem;
+	height: 11vh;
+	width: 80%;
+}
+.tracking_form_container > form > button {
+	display: flex;
+	background-color: whitesmoke;
+	color: gray;
+	padding: 1rem;
+	height: 11vh;
+	width: 20%;
+	align-items: center;
+}
+.tracking_form_container > h2 {
+	color: white;
+}
+.first_section {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	color: black;
+	width: 100%;
+	height: fit-content;
+	background: white;
+}
+.first_section > ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+	margin-top: 20px;
+}
+.first_section > ul > li {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	box-shadow: 0px 0px 2px 0px;
+	padding: 1rem;
+}
+.first_section > ul > li > a {
+	color: gray;
+}
+.first_section > ul > li > .first_sect_icon {
+	color: cyan;
+	width: 5rem;
+	height: 5rem;
+}
+.second_section {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 110vh;
+	position: relative;
+	margin-top: 1rem;
+}
+.second_section > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: top;
+}
+.second_section > .desc {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: fit-content;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+	box-shadow: 0px, 0px, 10px, 0px;
+	padding: 1rem;
+	gap: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+.second_section > .desc > button {
+	display: inline-block;
+	width: fit-content;
+	height: fit-content;
+	padding: 0.6rem;
+	color: white;
+	background-color: transparent;
+	border: 1px solid white;
+}
+.third_section {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: fit-content;
+	padding: 2rem;
+}
+.third_section > .left {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 20px;
+}
+.third_section > .left > .items {
+	display: flex;
+	gap: 2rem;
+}
+.third_section > .left > .wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+}
+.check_circle {
+	color: cyan;
+	width: 3rem !important;
+	height: 3rem !important;
+}
+.third_section > .left {
+	display: flex;
+	flex-direction: column;
+}
+.third_section > .right {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 1rem;
+}
+.third_section > .right > .wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+}
+.fourth_section {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: fit-content;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(45deg, cyan, blue);
+	padding: 2rem;
+}
+.fourth_section > .options {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	color: white;
+}
+.fourth_section > .options > .links {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+	width: 100%;
+	height: fit-content;
+	align-items: center;
+}
+.fourth_section > .options > .links > .links_wrapper {
+	display: flex;
+	height: fit-content;
+	align-items: center;
+	gap: 1rem;
+}
