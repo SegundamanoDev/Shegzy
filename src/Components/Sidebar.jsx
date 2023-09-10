@@ -35,10 +35,10 @@ const Sidebar = ({menu, click}) => {
 					})}
 					<div className='auth'>
 						<Link to='/signin' onClick={click}>
-							SignIn
+							Sign In
 						</Link>
 						<Link to='/signup' onClick={click}>
-							SignUp
+							Sign Up
 						</Link>
 					</div>
 				</ul>
