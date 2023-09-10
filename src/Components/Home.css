@@ -53,8 +53,8 @@
 }
 @keyframes content {
 	0% {
-		visibility: hidden;
-		opacity: 0;
+		visibility: visi;
+		opacity: 1;
 		top: 70%;
 	}
 	100% {

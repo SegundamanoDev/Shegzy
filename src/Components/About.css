@@ -54,12 +54,16 @@
 	gap: 2rem;
 	width: 100%;
 	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 .team > .team_info > ul {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 2rem;
 	padding: 2rem;
+	align-items: center;
+	justify-content: center;
 }
 .team > .team_info > ul > li > .desc {
 	gap: 1.5rem;
