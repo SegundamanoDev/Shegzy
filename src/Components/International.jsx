@@ -12,7 +12,10 @@ const International = () => {
 			</div>
 			<div className='left_wrapper'>
 				<div className='left_top'>
-					<h2>INTERNATIONAL SERVICES</h2>{" "}
+					<h2
+						style={{display: "flex", width: "100%", justifyContent: "center"}}>
+						INTERNATIONAL SERVICES
+					</h2>{" "}
 					<div className='left_items_wrapper'>
 						<div className='discssn'>
 							<h2>Import Service</h2>

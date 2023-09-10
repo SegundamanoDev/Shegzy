@@ -12,6 +12,7 @@
 	color: white;
 	gap: 1rem;
 	padding: 7rem 0rem;
+	justify-content: center;
 }
 .specialised_container > .left_wrapper > .left_top {
 	display: grid;
