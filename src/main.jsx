@@ -24,10 +24,16 @@ import Commerce from "./Components/Commerce";
 import International from "./Components/International";
 import Custom from "./Components/Custom";
 
+const ScrollToTop = () => {
+	window.scrollTo(0, 0);
+	return null;
+};
+
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<Header />
+			<ScrollToTop />
 			<Routes>
 				<Route exact path='/' element={<Home />} />
 				<Route path='/about' element={<About />} />

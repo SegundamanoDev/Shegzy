@@ -213,25 +213,25 @@ const Home = () => {
 					<h1>Looking for more? Here are a few places to explore.</h1>
 					<div className='links'>
 						<div className='links_wrapper'>
-							<Link to='' className='opt_link'>
+							<Link to='/about' className='opt_link'>
 								About Us
 							</Link>
 							<ArrowForwardIos className='opt_icon' />
 						</div>
 						<div className='links_wrapper'>
-							<Link to='' className='opt_link'>
+							<Link to='/services/international' className='opt_link'>
 								Import Service
 							</Link>
 							<ArrowForwardIos className='opt_icon' />
 						</div>
 						<div className='links_wrapper'>
-							<Link to='' className='opt_link'>
+							<Link to='/services/courier' className='opt_link'>
 								Same Day Delivery
 							</Link>
 							<ArrowForwardIos className='opt_icon' />
 						</div>
 						<div className='links_wrapper'>
-							<Link to='' className='opt_link'>
+							<Link to='/contact' className='opt_link'>
 								Contact Us
 							</Link>
 							<ArrowForwardIos className='opt_icon' />
