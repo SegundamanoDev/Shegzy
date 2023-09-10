@@ -48,6 +48,8 @@
 	flex-direction: column;
 	gap: 15px;
 	animation: content 2s forwards;
+	visibility: hidden;
+	opacity: 0;
 }
 @keyframes content {
 	0% {
