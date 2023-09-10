@@ -16,7 +16,9 @@ const Contact = () => {
 			<div className='contact_bottom'>
 				<div className='left'>
 					<h2>Get in touch with us</h2>
-					<h3>To get in touch with SHEGZY please Call or Email us</h3>
+					<h3 style={{padding: "0rem 1.5rem"}}>
+						To get in touch with SHEGZY please Call or Email us
+					</h3>
 				</div>
 				<div className='right'>
 					<form>

@@ -16,11 +16,17 @@
 .specialised_container > .left_wrapper > .left_top {
 	display: grid;
 	gap: 2rem;
+	justify-content: center;
+}
+.specialised_container > .left_wrapper {
+	justify-content: center;
+	width: 100%;
 }
 .specialised_container > .left_wrapper > .left_top > .left_items_wrapper {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 2rem;
+	padding: 2rem;
 }
 .specialised_container > .left_wrapper > .left_top > .discssn {
 	display: grid;
