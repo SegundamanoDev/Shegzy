@@ -2,7 +2,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 50%;
+	width: 60%;
 	height: 100vh;
 	z-index: 101;
 	background-color: blue;
@@ -51,7 +51,7 @@
 	border: none;
 	padding-left: 0.6rem;
 	background-color: whitesmoke;
-	width: 70%;
+	width: 65%;
 }
 .sidebar_container > ul > form > button {
 	display: flex;
@@ -59,7 +59,7 @@
 	height: 100%;
 	outline: none;
 	border: none;
-	width: 30%;
+	width: 35%;
 	justify-content: center;
 	color: gray;
 }
