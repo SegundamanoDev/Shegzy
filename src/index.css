@@ -42,13 +42,22 @@ h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
 }
-
+form {
+	border: none;
+	border-radius: 0px;
+}
 button {
 	padding: 0.6em 1.2em;
 	font-size: 1em;
 	font-weight: 500;
 	font-family: inherit;
 	cursor: pointer;
+	border: none;
+	border-radius: 0px;
+}
+input {
+	border: none;
+	border-radius: 0px;
 }
 button:hover {
 	border-color: #646cff;

@@ -88,7 +88,7 @@
 	height: 100%;
 	align-items: center;
 	justify-content: space-around;
-	/* z-index: 999; */
+	z-index: 500;
 }
 .arrow {
 	color: cyan;
@@ -131,6 +131,7 @@
 	height: 11vh;
 	width: 20%;
 	align-items: center;
+	justify-content: center;
 }
 .tracking_form_container > h2 {
 	color: white;

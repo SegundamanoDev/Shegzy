@@ -26,6 +26,10 @@
 	outline: none;
 	/* margin-bottom: 1rem; */
 }
+.signin_container > form > button {
+	color: white;
+	background-color: blue;
+}
 .signin_container > form > h2 {
 	animation-name: omo;
 	animation-timing-function: linear;

@@ -25,7 +25,7 @@ const Footer = () => {
 				<hr className='hr' />
 				<div className='footer_bottom'>
 					<div className='left'>
-						<p>SHEGZY INT SERVICE</p>
+						<h3>SHEGZY INT SERVICE</h3>
 						<p>42 Concord Way off Airport Road, Ikeja, Lagos, Nigeria</p>
 						<button>GET LOCATION</button>
 					</div>
