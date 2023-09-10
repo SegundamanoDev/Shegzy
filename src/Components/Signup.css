@@ -16,7 +16,6 @@
 	align-items: center;
 	padding: 2rem;
 	gap: 1rem;
-	border-radius: 1rem;
 }
 .signup_container > form > input {
 	display: flex;

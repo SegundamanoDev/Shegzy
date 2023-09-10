@@ -26,7 +26,7 @@ const Sidebar = ({menu, click}) => {
 					</form>
 					{routes.map((route, index) => {
 						return (
-							<li key={index}>
+							<li key={index} onClick={click}>
 								<NavLink to={route.path} className={route.cName}>
 									{route.name}
 								</NavLink>
@@ -34,8 +34,12 @@ const Sidebar = ({menu, click}) => {
 						);
 					})}
 					<div className='auth'>
-						<Link to='/signin'>SignIn</Link>
-						<Link to='/signup'>SignUp</Link>
+						<Link to='/signin' onClick={click}>
+							SignIn
+						</Link>
+						<Link to='/signup' onClick={click}>
+							SignUp
+						</Link>
 					</div>
 				</ul>
 			</div>

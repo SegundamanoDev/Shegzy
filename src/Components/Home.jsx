@@ -39,6 +39,7 @@ const Home = () => {
 			currentSlide === 0 ? bannerItems.length - 1 : currentSlide - 1
 		);
 	};
+
 	return (
 		<div className='home_container'>
 			<div className='banner'>
@@ -58,7 +59,7 @@ const Home = () => {
 										<h2>{data.heading}</h2>
 										<p>{data.desc}</p>
 										<hr className='hr' />
-										<button>{data.btn}</button>
+										<Link to='/services/logistics'>{data.btn}</Link>
 									</div>
 								</>
 							)}
