@@ -75,10 +75,10 @@ const Home = () => {
 			</div>
 			<div className='first_section'>
 				<div className='first_sect_desc'>
-					<h1>SHEGZY INT SERVICE</h1>
-					<h2>
+					<h2>SHEGZY INT SERVICE</h2>
+					<h3>
 						You have a need? We have the <span>SOLUTION</span>
-					</h2>
+					</h3>
 				</div>
 				<ul>
 					<li>
@@ -151,7 +151,7 @@ const Home = () => {
 			</div>
 			<div className='third_section'>
 				<div className='left'>
-					<h1>KEY FEATURES</h1>
+					<h2>KEY FEATURES</h2>
 					<div className='wrapper'>
 						<div className='items'>
 							<div className='left_icon'>
@@ -184,7 +184,7 @@ const Home = () => {
 					</div>
 				</div>
 				<div className='right'>
-					<h1>ABOUT US</h1>
+					<h2>ABOUT US</h2>
 					<div className='wrapper'>
 						<div>
 							<h3>
@@ -209,7 +209,7 @@ const Home = () => {
 			</div>
 			<div className='fourth_section'>
 				<div className='options'>
-					<h1>Looking for more? Here are a few places to explore.</h1>
+					<h2>Looking for more? Here are a few places to explore.</h2>
 					<div className='links'>
 						<div className='links_wrapper'>
 							<Link to='/about' className='opt_link'>

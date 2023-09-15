@@ -9,7 +9,7 @@
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	padding: 11rem;
+	height: 100vh;
 	flex-direction: column;
 	background-color: rgba(0, 0, 255, 0.3);
 }
@@ -53,7 +53,7 @@
 }
 @keyframes content {
 	0% {
-		visibility: visi;
+		visibility: visible;
 		opacity: 1;
 		top: 70%;
 	}
@@ -86,7 +86,7 @@
 	height: 2rem !important;
 	position: absolute;
 	top: 50%;
-	right: 20%;
+	right: 10%;
 	transform: translate(-50%, -50%);
 	z-index: 500;
 }
@@ -143,9 +143,10 @@
 }
 .first_section > ul {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 	gap: 2rem;
 	margin-top: 20px;
+	width: 100%;
 }
 .first_section > ul > li {
 	display: flex;
@@ -214,14 +215,16 @@
 	flex-direction: column;
 	width: 100%;
 	gap: 20px;
+	padding: 1rem;
 }
 .third_section > .left > .items {
 	display: flex;
 	gap: 2rem;
+	width: 100%;
 }
 .third_section > .left > .wrapper {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 	gap: 2rem;
 }
 .check_circle {
@@ -238,10 +241,11 @@
 	flex-direction: column;
 	width: 100%;
 	gap: 1rem;
+	padding: 1rem;
 }
 .third_section > .right > .wrapper {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 	gap: 2rem;
 }
 .fourth_section {

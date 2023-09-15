@@ -25,7 +25,7 @@ const Header = () => {
 				<div className='headers_container'>
 					<Sidebar menu={menu} click={hideMenu} />
 					<div className='logo'>
-						<h1>SHEGZY</h1>
+						<h2>SHEGZY</h2>
 					</div>
 					<div className='nav_container'>
 						<ul>
