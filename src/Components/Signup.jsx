@@ -2,11 +2,8 @@ import {useState} from "react";
 import "./Signup.css";
 import {Link} from "react-router-dom";
 import {useDispatch} from "react-redux";
-import {signUp} from "../Redux/user";
 
 const Signup = () => {
-	const dispatch = useDispatch();
-
 	const [signUpData, setSignUpData] = useState({
 		firstname: "",
 		lastname: "",
@@ -22,8 +19,6 @@ const Signup = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-
-		dispatch(signUp(JSON.stringify(...signUpData)));
 
 		setSignUpData({
 			firstname: "",

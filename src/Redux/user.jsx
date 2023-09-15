@@ -1,7 +1,7 @@
 const {createAsyncThunk, createSlice} = require("@reduxjs/toolkit");
 const {default: axios} = require("axios");
 
-export const signUp = createAsyncThunk(
+const signUp = createAsyncThunk(
 	"auth/signUp",
 	async (user, {rejectWithValue}) => {
 		try {
