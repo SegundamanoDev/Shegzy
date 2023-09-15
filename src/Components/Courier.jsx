@@ -7,8 +7,8 @@ const Courier = () => {
 	return (
 		<div className='courier_container'>
 			<div className='courier_top'>
-				<h1>WHO WE ARE</h1>
-				<h1>COURIER</h1>
+				<h2>WHO WE ARE</h2>
+				<h2>COURIER</h2>
 			</div>
 			<div className='left_wrapper'>
 				<div className='left_top'>

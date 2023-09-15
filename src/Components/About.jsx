@@ -9,8 +9,8 @@ const About = () => {
 	return (
 		<div className='about_container'>
 			<div className='about_top'>
-				<h1>WHO WE ARE</h1>
-				<h1>ABOUT US</h1>
+				<h2>WHO WE ARE</h2>
+				<h2>ABOUT US</h2>
 			</div>
 			<section>
 				<h2>

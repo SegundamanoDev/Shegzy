@@ -7,8 +7,8 @@ const Logistics = () => {
 	return (
 		<div className='logistics_container'>
 			<div className='logistics_top'>
-				<h1>WHO WE ARE</h1>
-				<h1>LOGISTICS</h1>
+				<h2>WHO WE ARE</h2>
+				<h2>LOGISTICS</h2>
 			</div>
 			<div className='left_wrapper'>
 				<div className='left_top'>

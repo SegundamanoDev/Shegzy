@@ -50,10 +50,9 @@ const Home = () => {
 							key={index}>
 							{index === currentSlide && (
 								<>
-									<div className='arrow_btn'>
-										<ArrowBackIos className='arrow' onClick={prev} />
-										<ArrowForwardIos className='arrow' onClick={next} />
-									</div>
+									<ArrowBackIos className='arrow_back' onClick={prev} />
+									<ArrowForwardIos className='arrow_front' onClick={next} />
+
 									<img src={data.image} alt='pictures' />
 									<div className='content'>
 										<h2>{data.heading}</h2>

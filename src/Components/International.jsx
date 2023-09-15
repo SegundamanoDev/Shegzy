@@ -7,8 +7,8 @@ const International = () => {
 	return (
 		<div className='international_container'>
 			<div className='international_top'>
-				<h1>WHO WE ARE</h1>
-				<h1>INTERNATIONAL</h1>
+				<h2>WHO WE ARE</h2>
+				<h2>INTERNATIONAL</h2>
 			</div>
 			<div className='left_wrapper'>
 				<div className='left_top'>

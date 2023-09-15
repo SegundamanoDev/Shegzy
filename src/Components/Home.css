@@ -81,7 +81,7 @@
 	left: 0;
 	/* z-index: 999; */
 }
-.arrow_btn {
+/* .arrow_btn {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -91,11 +91,26 @@
 	align-items: center;
 	justify-content: space-around;
 	z-index: 500;
-}
-.arrow {
+} */
+.arrow_back {
 	color: cyan;
 	width: 2rem !important;
 	height: 2rem !important;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 500;
+}
+.arrow_front {
+	color: cyan;
+	width: 2rem !important;
+	height: 2rem !important;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 500;
 }
 .tracking_form_container {
 	display: flex;

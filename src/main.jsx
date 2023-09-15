@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import ReactDOM from "react-dom/client";
 
 // import App from "./App.jsx";
@@ -23,17 +23,13 @@ import Logistics from "./Components/Logistics";
 import Commerce from "./Components/Commerce";
 import International from "./Components/International";
 import Custom from "./Components/Custom";
-
-const ScrollToTop = () => {
-	window.scrollTo(0, 0);
-	return null;
-};
+import ScrollToTop from "./Components/ScrollToTop";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
 		<BrowserRouter>
-			<Header />
 			<ScrollToTop />
+			<Header />
 			<Routes>
 				<Route exact path='/' element={<Home />} />
 				<Route path='/about' element={<About />} />

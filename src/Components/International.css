@@ -14,6 +14,7 @@
 	color: white;
 	gap: 1rem;
 	padding: 7rem 1.5rem;
+	width: 100%;
 }
 .international_container > .left_wrapper > .left_top {
 	display: grid;

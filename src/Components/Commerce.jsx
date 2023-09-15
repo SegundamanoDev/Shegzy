@@ -7,8 +7,8 @@ const Commerce = () => {
 	return (
 		<div className='commerce_container'>
 			<div className='commerce_top'>
-				<h1>WHO WE ARE</h1>
-				<h1>E-COMMERCE</h1>
+				<h2>WHO WE ARE</h2>
+				<h2>E-COMMERCE</h2>
 			</div>
 			<div className='left_wrapper'>
 				<div className='left_top'>

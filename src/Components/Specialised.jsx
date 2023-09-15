@@ -7,8 +7,8 @@ const Specialised = () => {
 	return (
 		<div className='specialised_container'>
 			<div className='specialised_top'>
-				<h1>WHO WE ARE</h1>
-				<h1>SPECIALISED SOLUTIONS</h1>
+				<h2>WHO WE ARE</h2>
+				<h2>SPECIALISED SOLUTIONS</h2>
 			</div>
 
 			<div className='left_wrapper'>

@@ -10,8 +10,8 @@ const Contact = () => {
 	return (
 		<div className='contact_container'>
 			<div className='contact_top'>
-				<h1>WHO WE ARE</h1>
-				<h1>CONTACT US</h1>
+				<h2>WHO WE ARE</h2>
+				<h2>CONTACT US</h2>
 			</div>
 			<div className='contact_bottom'>
 				<div className='left'>
