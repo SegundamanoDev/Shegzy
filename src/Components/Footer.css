@@ -10,6 +10,7 @@
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	gap: 30px;
 	padding: 1rem;
+	border-bottom: 1px solid gray;
 }
 .footer_top > .left {
 	display: flex;
@@ -90,9 +91,4 @@
 	width: 40%;
 	display: flex;
 	color: gray;
-}
-.footer_hr {
-	width: 85%;
-	margin-left: auto;
-	margin-right: auto;
 }

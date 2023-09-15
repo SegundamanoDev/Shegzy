@@ -22,7 +22,6 @@ const Footer = () => {
 						<Twitter className='icon' />
 					</div>
 				</div>
-				<hr className='footer_hr' />
 				<div className='footer_bottom'>
 					<div className='left'>
 						<h3>SHEGZY INT SERVICE</h3>
